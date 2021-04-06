@@ -33,7 +33,7 @@ variable "private_key_name" {
 variable "private_key_file_path" {
   type        = string
   description = "The location of the key-pair pem file"
-  default     = "./terraform/aws/tf-ansible-init.pub"
+  default     = "./terraform/keys/tf-ansible-init.pub"
 }
 
 # The location from which a user can SSH to bastion hosts
